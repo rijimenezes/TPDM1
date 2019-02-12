@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#9999ff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tittulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#222222"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/inNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Escribe tu nombre"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tittulo"/>
+    <Button
+        android:id="@+id/btnSaludar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saludar"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/tittulo"
+        android:layout_toRightOf="@id/inNombre"
+        android:onClick="saludar"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escuela"
+        android:layout_below="@id/inNombre"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rbEscuela"
+        android:onClick="activarParte"
+        />
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/escuela"
+        android:layout_below="@id/rbEscuela"
+        android:id="@+id/escuela"
+        >
+    </Spinner>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar solicitud"
+        android:layout_below="@id/escuela"
+        android:layout_marginTop="20dp"
+        android:id="@+id/swSolicitud"
+        android:onClick="enviarSolicitud"
+        />
+
+</RelativeLayout>

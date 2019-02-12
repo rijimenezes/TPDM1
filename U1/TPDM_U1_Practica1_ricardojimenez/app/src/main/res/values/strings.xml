@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TPDM_U1_Practica1</string>
+    <string-array name="escuela">
+        <item>ITT</item>
+        <item>UT</item>
+        <item>UAN</item>
+    </string-array>
+</resources>
