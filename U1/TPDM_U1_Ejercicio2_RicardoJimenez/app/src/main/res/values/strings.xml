@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TPDM_U1_Ejercicio2_RicardoJimenez</string>
+    <string-array name="objetoslista">
+        <item>Dinamico</item>
+        <item>Condiciones</item>
+        <item>Ciclos</item>
+        <item>Acerca de...</item>
+        <item>Salir</item>
+    </string-array>
+</resources>

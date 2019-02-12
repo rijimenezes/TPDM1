@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/agregaboton" android:title="Agrega boton"></item>
+    <item android:id="@+id/agregacampo" android:title="Agrega campo"/>
+    <item android:id="@+id/agregaetiqueta" android:title="Agrega etiqueta"/>
+    <item android:title="Quitar todos" android:id="@+id/quitartodos"/>
+    <item android:id="@+id/regresar" android:title="Regresar"/>
+
+</menu>
